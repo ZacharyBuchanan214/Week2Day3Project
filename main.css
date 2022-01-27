@@ -1,34 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 body{
     font-family: Helvetica, sans-serif;
     background-image: url("images/Sky.jpeg");
 }
 
-li {
+li{
     text-decoration: none;
     display: inline;
 }
 
 nav ul{
     background-color: #1b1c1b;
+    height: 40px;
+    padding-top: 15px;
 }
 
-nav li {
-    font-size: 21px;
-    margin: 10px;
-    text-align: center;
+nav li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
 header{
     text-align: center;
     color: white;
     padding: 10px 0 0 0;
+    margin-top: 100px;
 }
 
 header h1{
     font-weight: 700;
     font-size: 50px;
+    margin-bottom: 50px;
 }
